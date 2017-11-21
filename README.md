@@ -8,4 +8,5 @@ to install:
 ```cd /opt
 git clone https://github.com/TheCase/sr1168c-json.git 
 cd sr1168c-json
-sh install.sh```
+sh install.sh
+```
