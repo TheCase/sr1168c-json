@@ -5,7 +5,8 @@ http://www.ultisolar.com/SR1168.pdf
 I wrote this to present metric data to telegraf.
 
 to install:
-```cd /opt
+```
+cd /opt
 git clone https://github.com/TheCase/sr1168c-json.git 
 cd sr1168c-json
 sh install.sh
