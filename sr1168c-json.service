@@ -1,0 +1,14 @@
+# cp sr1168c-json.service /etc/systemd/system/.
+
+
+[Unit]
+Description=sr1168c endpoint
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+Environment=SERIAL_DEVICE=/dev/ttyUSB0
+Environment=BIND_PORT=50
+ExecStart=/opt/sr1168c-json/server.py
+Restart=on-failure
